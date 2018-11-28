@@ -46,19 +46,18 @@ h1 {
 } */
 
 /* navigation system */
-
-
 nav nav.hnav li {
     list-style: none;
 }
 
 nav.hnav a {
-    background: rgb(119, 0, 79);
-    width: 25%;
+    background: rgb(199, 64, 154);
+    width: 20%;
     float: left;
     display: block;
     text-align: center;
     border: 1px solid black;
+
 
 }
 
