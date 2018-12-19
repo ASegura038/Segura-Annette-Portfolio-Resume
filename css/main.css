@@ -13,8 +13,8 @@
    ========================================================================== */
 
 html {
-    background-color: rgb(112, 46, 107);
-    height: 100%;
+    background-color: rgb(134, 59, 128);
+
 }
 
 /* body styles */
@@ -38,8 +38,10 @@ header:after {
 
 img {
     width: 100%;
-    height: 48%;
+    height: 420px;
 }
+
+
 
 h1 {
     margin-top: 0px;
@@ -167,6 +169,43 @@ textarea {
     background: #ccc;
     color: #000;
     padding: 0.2em 0;
+}
+
+footer {
+    background: rgb(120, 175, 159);
+    width: 100%;
+
+}
+
+footer img {
+    width: 3%;
+    height: 5%;
+}
+
+footer img#img1 {
+    padding-left: 45%;
+}
+
+footer img#img2 {
+    width: 3%;
+    height: 31px;
+}
+
+footer::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 55px;
+}
+
+p {
+    padding: 20px;
 }
 
 /* ==========================================================================
